@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pita Form fillup</title>
+    <link rel="icon" href="images/pita.jpg">
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+        .style{
+            margin: 5px;
+            background-color: brown;
+            width: 50px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wellcome to my pita ghor</h1>
+    <form action="">
+                <label for="name">Your name <input id="name" type="text" placeholder="Your name"> </label>
+            
+                <label for="Email">Your email <input id="Email" type="text" placeholder="Your email"> </label>
+                <label for=" Ph.Number">Your Ph.number <input type="number" placeholder="Your Ph.number"></label>
+        <fieldset>
+                    <legend>Pick one pita</legend>
+                    <label for="vapa"> <input type="radio" name="pita" id="vapa">vapa 
+                    </label>
+                    <label for="Chitoy"> <input type="radio" name="pita" id="Chitoy">Chitoy 
+                    </label>
+                    <label for="coconut"> <input type="radio" name="pita" id="Coconut">Coconut 
+                    </label>
+        </fieldset>
+        <fieldset>
+                    <legend>Choce One or more Bortha</legend>
+                    <label for="Sidol Bortha"><input type="checkbox" name="Bortha" id="Sidol Bortha">Sidol Bortha</label>
+                    <label for="Sorisa Bortha"><input type="checkbox" name="Bortha" id="Sorisa Bortha">Sorisa Bortha</label>
+                    <label for="Allu Bortha"><input type="checkbox" name="Bortha" id="Allu Bortha">Allu Bortha</label>
+
+        </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="Pita and Bortha" id="About Pita and Bortha" cols="50" rows="5"></textarea>
+                </fieldset>
+
+        <input class="style" type="reset">
+        <input class="style"  type="submit">
+      
+    </form>
+</body>
+</html>
