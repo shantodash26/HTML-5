@@ -1,0 +1,22 @@
+ h2{
+    text-align: center;
+
+ }
+ nav ul{
+    display: flex;
+    /* list-style: none; */   
+}
+li{
+    list-style: none;
+    margin: 7px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+}
+
+nav li:hover{
+    background-color: blueviolet;
+}
